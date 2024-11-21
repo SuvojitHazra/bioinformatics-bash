@@ -19,7 +19,7 @@ for dir in */; do tar -czvf "${dir%/}".tgz "$dir"; done; rm -r */;
 
 Q5. How to untar multiple tarred files (.tgz or .gz) in a folder ?
 
-for f in *.tgz; do tar -xzvf "$f"; done
+for f in *.tgz; do tar -xzvf "$f"; done <br />
 for f in *.gz; do tar -xzvf "$f"; done
 
 
